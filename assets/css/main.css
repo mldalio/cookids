@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Work+Sans:wght@900&display=swap'|Open+Sans");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Work+Sans:wght@400&display=swap'|Open+Sans");
 html {
   overflow-x: hidden;
 }
@@ -7,7 +7,7 @@ body {
   background: #fff;
   font-size: 14px;
   font-weight: 400;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Work Sans', sans-serif;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -23,7 +23,7 @@ h1, h2, h3, h4 {
   font-size: 38px;
   color: #222222;
   font-weight: 700;
-  font-family: 'Work Sans', serif;
+  font-family: 'Montserrat';
 }
 
 a {
@@ -43,7 +43,7 @@ a a:focus {
 
 p {
   font-weight: 400;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Work Sans', sans-serif;
   margin: 0px;
   font-size: 14px;
 }
@@ -81,11 +81,11 @@ a:not([href]):not([tabindex]) {
 }
 
 .shape {
-  height: 1px;
+  height: 3px;
   margin: 0 auto 30px;
   position: relative;
   width: 60px;
-  background-color: #ff89bf;
+  background-color: #E94F27;
 }
 
 .padding-none {
@@ -93,7 +93,7 @@ a:not([href]):not([tabindex]) {
 }
 
 .bg-gray {
-  background: #f9f9f9;
+  background: #f5f5f5
 }
 
 .overlay {
@@ -127,15 +127,15 @@ a:not([href]):not([tabindex]) {
 }
 
 .btn-common {
-  background-color: #ff89bf;
+  background-color: #0DADDD;
   position: relative;
   z-index: 1;
   text-transform: uppercase;
 }
 
 .btn-common:hover {
-  color: #ff89bf;
-  background: transparent;
+  color: #131213;
+  background: #ffb400;
   border: 1px dotted #ff89bf;
   box-shadow: 0 6px 22px rgba(0, 0, 0, 0.1);
   transition: all .2s ease-in-out;
@@ -244,7 +244,7 @@ a.back-to-top i {
   height: 40px;
   line-height: 40px;
   color: #fff;
-  background: #F63854;
+  background: #ffb400;
   border-radius: 30px;
   text-align: center;
   transition: all 0.2s ease-in-out;
@@ -541,18 +541,18 @@ hr {
 
 .top-nav-collapse .navbar-nav .nav-link:hover {
   cursor: pointer;
-  color: #ff89bf !important;
-  border-color: #ff89bf !important;
+  color: #ffb400 !important;
+  border-color: #ffb400 !important;
 }
 
 .top-nav-collapse .navbar-nav .nav-link:hover {
-  color: #ff89bf !important;
+  color: #ffb400 !important;
 }
 
 .navbar-expand-md .navbar-toggler {
   background: transparent;
-  border: 1px solid #ff89bf;
-  color: #ff89bf;
+  border: 1px solid #ffb400;
+  color: #ffb400;
   border-radius: 4px;
   cursor: pointer;
 }
@@ -562,8 +562,8 @@ hr {
 }
 
 .top-nav-collapse .navbar-nav li.active a.nav-link {
-  color: #ff89bf!important;
-  border-color: #ff89bf;
+  color: #ffb400!important;
+  border-color: #ffb400;
 }
 
 .indigo {
@@ -600,7 +600,7 @@ hr {
 }
 
 .navbar-expand-md .navbar-nav .nav-link:before {
-  background-color: #ff89bf;
+  background-color: #ffb400;
   content: '';
   display: block;
   height: 2px;
@@ -627,14 +627,14 @@ hr {
 .navbar-expand-md .navbar-nav .nav-link.active,
 .navbar-expand-md .navbar-nav .nav-link.open,
 .navbar-expand-md .navbar-nav .open > .nav-link {
-  color: #ff89bf !important;
+  color: #ffb400 !important;
   width: 100%;
 }
 
 .navbar-expand-md .navbar-nav .nav-link:hover,
 .navbar-expand-md .navbar-nav .nav-link:hover::before,
 .navbar-expand-md .navbar-nav .nav-link:focus {
-  color: #ff89bf;
+  color: #ffb400;
   width: 100%;
   transition: width 1s;
   -webkit-transition: width 1s;
@@ -747,7 +747,7 @@ hr {
 3. Hero Area
 ========================================================================== */
 #hero-area {
-  background-color: aliceblue;
+  background-color: #192B4A;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -758,11 +758,15 @@ hr {
 }
 
 #hero-area .contents .head-title {
-  color: #222222;
+  color: #e4dede;
   font-size: 42px;
   font-weight: 900;
   line-height: 60px;
   margin-bottom: 10px;
+}
+
+.p-hero {
+  color:#e4dede;
 }
 
 #hero-area .contents .header-button {
@@ -942,7 +946,7 @@ hr {
 
 #pricing .table .pricing-header .price-value {
   font-size: 24px;
-  color: #ff89bf;
+  color: #E94F27;
   position: relative;
   text-align: center;
   font-weight: 900;
@@ -983,7 +987,7 @@ hr {
 }
 
 #pricing .table:hover .icon-box {
-  background: #ff89bf;
+  background: #E94F27;
 }
 
 #pricing .table:hover .icon-box i {
@@ -996,7 +1000,7 @@ hr {
 }
 
 #pricing #active-tb .icon-box {
-  background: #ff89bf;
+  background: #E94F27;
 }
 
 #pricing #active-tb .icon-box i {
@@ -1009,7 +1013,7 @@ hr {
 
 .testimonial {
   position: relative;
-  background-color: #ff89bf;
+  background-color: #f5f5f5;
 }
 
 .testimonial-item {
@@ -1041,7 +1045,7 @@ hr {
 }
 
 .testimonial-item .content .star-icon i {
-  color: #ff89bf;
+  color: #E94F27;
 }
 
 .testimonial-item .info h2 {
@@ -1072,7 +1076,7 @@ hr {
 .testimonial-item .info .indicator {
   font-size: 26px;
   font-weight: 900;
-  color: #ff89bf;
+  color: #E94F27;
 }
 
 .testimonial-item .icon-social {
@@ -1157,7 +1161,7 @@ hr {
 }
 
 .owl-carousel button.owl-dot.active span, .owl-carousel button.owl-dot.clickable, .owl-carousel button.owl-dot:hover span {
-  background: #ff89bf;
+  background: #E94F27;
 }
 
 .slick-slider {
@@ -1285,7 +1289,7 @@ textarea {
 
 .footer-area .footer-titel {
   font-size: 18px;
-  color: #333333;
+  color: #f5f5f5;
   font-weight: 500;
   padding-bottom: 20px;
   letter-spacing: 0.5px;
@@ -1297,7 +1301,7 @@ textarea {
 }
 
 .footer-area .textwidget p {
-  color: #333;
+  color: #f5f5f5;
 }
 
 .footer-area .footer-link li {
@@ -1305,14 +1309,14 @@ textarea {
 }
 
 .footer-area .footer-link li a {
-  color: #333;
+  color: #f5f5f5;
   font-size: 14px;
   font-weight: 400;
   position: relative;
 }
 
 .footer-area .footer-link li a:hover {
-  color: #ff89bf;
+  color: #ffb400;
 }
 
 .footer-area .address li {
@@ -1320,7 +1324,7 @@ textarea {
 }
 
 .footer-area .address li a {
-  color: #666666;
+  color: #f5f5f5;
   font-size: 14px;
   line-height: 30px;
   font-weight: 400;
@@ -1354,7 +1358,7 @@ textarea {
   height: 52px;
   border-radius: 0;
   background: transparent;
-  color: #ff89bf;
+  color: #f5f5f5;
 }
 
 #copyright .copyright-content {
@@ -1365,13 +1369,13 @@ textarea {
 
 #copyright p {
   line-height: 42px;
-  color: #333;
+  color: #f5f5f5;
   text-align: center;
   margin: 0;
 }
 
 #copyright p a {
-  color: #ff89bf
+  color: #f5f5f5
 }
 
 .social-icon a {
